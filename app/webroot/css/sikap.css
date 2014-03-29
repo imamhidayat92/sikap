@@ -1,0 +1,179 @@
+.body {
+    min-width: 1170px;
+}
+
+legend {
+    font-family: 'Open Sans', Arial;
+    font-size: 25px;
+    border-bottom: solid 1px black;
+    margin: 0 0 15px 0;
+}
+
+/* Color Styles */
+.white {
+	color: #ffffff;
+}
+
+.purple-btn {
+    background-color: #E01B6A;
+    border: none;
+}
+
+.orange-btn {
+    background-color: orange;
+    border: solid 1px black;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-green {
+    background-color: #0a0;
+}
+
+.opensans {
+	font-family: 'Open Sans', Arial;
+}
+
+.no-border {
+	border: none;
+}
+
+/* Graph Related */
+.stat-down {
+    width: 19px;
+    height: 19px;
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+    display: block;
+}
+
+.stat-up {
+    width: 19px;
+    height: 19px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #6fe216;
+    display: block;
+}
+
+/* Overridden Foundation Styles */
+span.meter h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+}
+.top-bar {
+    margin: 0;
+}
+
+/* Custom Styles */
+.section-label {
+    font-family: 'Open Sans', Arial;
+    font-size: 37px;
+    color: #000;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+.column-title {
+    font-family: 'Open Sans', Arial;
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: solid 2px blue;
+}
+
+.point-label {
+    font-size: 50px; 
+    line-height: 55px;
+    margin: 0 0 0px 0; 
+    padding: 0;
+    text-align: center;
+    background-color: #cccccc;
+    color: #ffffff;
+}
+.point-label-caption {
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+    background-color: grey;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #818183;
+    color: #ffffff;
+}
+.section-title {
+    border-bottom: solid 1px black;
+    font-family: 'Open Sans', Arial;
+    font-size: 25px;
+}
+.activity-label {
+    margin: 20px 0 5px 0;
+    padding: 0;
+}
+h4.activity-detail {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-family: 'Open Sans', Arial;
+    line-height: 31px
+}
+.activity-descriptions {
+    margin: 0 20px 0 20px;
+    background-color: #ebebeb;
+    border: solid 1px #ccc;
+    padding: 20px;
+}
+
+/* CakePHP Form Related Styles */
+select {
+    height: 30px;
+    line-height: 30px;
+}
+
+.date {
+    
+}
+
+.date select {
+    width: 80px;
+    float: left;
+}
+
+label{
+    margin: 20px 0 10px 0;
+}
+
+/* Miscellaneous */
+.clear {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+.separator {
+    height: 2px;
+    clear: both;
+    width: 100%;
+    display: block;
+    margin: 20px 0 0 0;
+}
